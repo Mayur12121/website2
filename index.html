@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Good</title>
+    <!-- link locomotive css-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+     <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="nav">
+        <div id="logo">
+            <img src="/logo.png" alt="">
+        </div>
+        <div id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+    </div>
+
+    <div id="cursor"></div>
+
+    <div class="main">
+        <div class="page1"> 
+            <h1 class="h11">Change </h1>
+            <h1 class="h12">The Course</h1>
+            <div class="video-container">
+                <div class="play">Play</div>
+                <video autoplay loop muted src="vid1.mp4"></video>
+            </div>
+        </div>
+
+        <div class="page2">
+            <div id="elem1" class="elem">
+                <img data-scroll data-scroll-speed="1" src="/img1.jpg" alt="">
+            </div>
+            <div id="elem2" class="elem">
+                <img data-scroll data-scroll-speed="1" src="/img2.jpg" alt="">
+            </div>
+            <div id="elem3" class="elem">
+                <img data-scroll data-scroll-speed="1" src="/img3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="page3">
+            <div class="child" id="child1">
+                <img src="/img10.jpg" alt="">
+            </div>
+            <div class="child" id="child2">
+                <img src="/img11.jpg" alt="">
+            </div>
+            <div class="child" id="child3">
+                <img src="/img12.jpg" alt="">
+            </div>
+            <div class="child" id="child4">
+                <img src="/img13.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <!-- locomotive js-->
+     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <!--gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- scroll trigger-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- javascript tag -->
+    <script src="script.js"></script>
+</body>
+</html>
